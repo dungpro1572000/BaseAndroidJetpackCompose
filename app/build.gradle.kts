@@ -96,6 +96,7 @@ dependencies {
     // Module dependencies
     implementation(project(":data"))
     implementation(project(":domain"))
+    implementation(project(":locale"))
 
     ksp(libs.androidx.room.compiler)
     implementation(libs.androidx.room.ktx)
